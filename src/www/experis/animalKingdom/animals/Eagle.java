@@ -6,7 +6,7 @@ import www.experis.animalKingdom.intreface.IsCarnivorous;
 
 public class Eagle extends Animal implements IsCarnivorous, CanFly {
     @Override
-    protected void verse() {
+    public void verse() {
         System.out.println("Verso dell'aquila.");
     }
 

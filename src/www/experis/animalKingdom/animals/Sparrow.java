@@ -6,7 +6,7 @@ import www.experis.animalKingdom.intreface.IsHerbivorous;
 
 public class Sparrow extends Animal implements IsHerbivorous , CanFly {
     @Override
-    protected void verse() {
+    public void verse() {
         System.out.println("Cip Cip");
     }
     @Override

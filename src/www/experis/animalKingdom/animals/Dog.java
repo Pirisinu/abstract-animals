@@ -5,7 +5,7 @@ import www.experis.animalKingdom.intreface.IsCarnivorous;
 
 public class Dog extends Animal implements IsCarnivorous {
     @Override
-    protected void verse() {
+    public void verse() {
         System.out.println("Bau Bau");
     }
     @Override

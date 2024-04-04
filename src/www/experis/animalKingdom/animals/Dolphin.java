@@ -6,7 +6,7 @@ import www.experis.animalKingdom.intreface.IsOmnivorous;
 
 public class Dolphin extends Animal implements IsOmnivorous, CanSwim {
     @Override
-    protected void verse() {
+    public void verse() {
         System.out.println("Verso del delfino.");
     }
 
