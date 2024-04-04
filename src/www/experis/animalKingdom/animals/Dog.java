@@ -1,4 +1,15 @@
 package www.experis.animalKingdom.animals;
 
-public class Dog {
+import www.experis.animalKingdom.abstractClasses.Animals;
+
+public class Dog extends Animals {
+    @Override
+    protected void verse() {
+
+    }
+
+    @Override
+    public void eat() {
+
+    }
 }
