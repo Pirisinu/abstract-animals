@@ -1,11 +1,10 @@
 package www.experis.animalKingdom.animals;
 
-import www.experis.animalKingdom.abstractClasses.Animals;
-import www.experis.animalKingdom.intreface.CanFly;
+import www.experis.animalKingdom.abstractClasses.Animal;
 import www.experis.animalKingdom.intreface.CanSwim;
 import www.experis.animalKingdom.intreface.IsOmnivorous;
 
-public class Dolphin extends Animals implements IsOmnivorous, CanSwim {
+public class Dolphin extends Animal implements IsOmnivorous, CanSwim {
     @Override
     protected void verse() {
         System.out.println("Verso del delfino.");

@@ -14,8 +14,12 @@ public class Main {
         Dolphin dolphin = new Dolphin();
         Eagle eagle = new Eagle();
         Sparrow sparrow = new Sparrow();
-
-
+        dog.sleep();
+        System.out.println("------------------");
+        System.out.println("------------------");
+        System.out.println("------------------");
+        System.out.println("------------------");
+        System.out.println("------------------");
     }
 
     public static void letItFly(CanFly animal){

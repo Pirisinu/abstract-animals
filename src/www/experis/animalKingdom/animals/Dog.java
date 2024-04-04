@@ -1,10 +1,9 @@
 package www.experis.animalKingdom.animals;
 
-import www.experis.animalKingdom.abstractClasses.Animals;
+import www.experis.animalKingdom.abstractClasses.Animal;
 import www.experis.animalKingdom.intreface.IsCarnivorous;
-import www.experis.animalKingdom.intreface.IsOmnivorous;
 
-public class Dog extends Animals implements IsCarnivorous {
+public class Dog extends Animal implements IsCarnivorous {
     @Override
     protected void verse() {
         System.out.println("Bau Bau");
